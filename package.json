@@ -1,0 +1,19 @@
+{
+  "name": "ashitaba",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryotaro612/fukagawa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryotaro612/fukagawa/issues"
+  },
+  "homepage": "https://github.com/ryotaro612/fukagawa#readme",
+  "description": ""
+}
