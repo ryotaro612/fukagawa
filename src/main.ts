@@ -1,4 +1,4 @@
-import {app, BrowserWindow } from 'electron/main';
+import {app, BrowserWindow } from 'electron';
 
 const createWindow = () => {
   const win = new BrowserWindow({
@@ -24,3 +24,4 @@ app.on('window-all-closed', () => {
     app.quit()
   }
 })
+

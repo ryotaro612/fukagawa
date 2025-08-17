@@ -29,9 +29,12 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.8.3",
     "@electron-forge/plugin-fuses": "^7.8.3",
     "@electron/fuses": "^1.8.0",
+    "@tsconfig/node-lts": "^22.0.2",
+    "@tsconfig/node-ts": "^23.6.1",
     "electron": "^37.3.0"
   },
   "dependencies": {
+    "@electron-forge/plugin-vite": "^7.8.3",
     "electron-squirrel-startup": "^1.0.1"
   }
 }
