@@ -17,5 +17,8 @@
     "url": "https://github.com/ryotaro612/fukagawa/issues"
   },
   "homepage": "https://github.com/ryotaro612/fukagawa#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "electron": "^37.3.0"
+  }
 }
