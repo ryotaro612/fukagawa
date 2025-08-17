@@ -2,8 +2,10 @@
   "name": "ashitaba",
   "version": "0.0.1",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild --bundle src/index.ts --format=esm --outfile=bin/cli.js --minify --platform=node  --sourcemap"
   },
   "repository": {
     "type": "git",
